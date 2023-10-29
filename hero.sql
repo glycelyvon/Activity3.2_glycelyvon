@@ -163,3 +163,5 @@ VALUES
  UPDATE heroes
 SET state = 'inactive'
 WHERE hero_id = 1;
+DELETE FROM items
+WHERE hero_id = 1;
